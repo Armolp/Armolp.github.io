@@ -1,0 +1,12 @@
+.headshot{
+	width: 256px;
+	border-radius: 50%;
+}
+
+hr {
+	height: 0;
+	border-top: solid 5px;
+	max-width: 256px;
+}
+hr.light { border-color: white; }
+hr.primary { border-color: #2C3E50; }

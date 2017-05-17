@@ -1,10 +1,21 @@
+
+/* New Styles */
+
 .headshot{
 	width: 256px;
 	border-radius: 50%;
 }
 
+/* Overriding styles */
+
+section {
+	padding: 75px 0;
+}
+
 hr {
-	height: 0;
+	margin-top: 25px;
+	margin-bottom: 30px;
+	height: 0px;
 	border-top: solid 5px;
 	max-width: 256px;
 }

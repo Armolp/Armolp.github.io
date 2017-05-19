@@ -6,12 +6,16 @@
 	border-radius: 50%;
 }
 
-/* Overriding styles */
+/*
+	Overriding styles
+*/
 
+/* tiny change because padding is too much to my tastes */
 section {
 	padding: 75px 0;
 }
 
+/* Removing star on hr tags because I want a more formal page */
 hr {
 	margin-top: 25px;
 	margin-bottom: 30px;
@@ -21,3 +25,12 @@ hr {
 }
 hr.light { border-color: white; }
 hr.primary { border-color: #2C3E50; }
+
+/* image fix to images that ate inside a carousel */
+/* the carousel ended up being bigger than the image in it */
+.carousel img{
+	margin: 0 !important;
+}
+.portfolio-modal .carousel {
+	margin-bottom: 30px;
+}
